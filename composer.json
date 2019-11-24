@@ -1,0 +1,20 @@
+{
+    "name": "jorda/amphibee_teste",
+    "authors": [
+        {
+            "name": "jordan62300",
+            "email": "jordanfievetpro@outlook.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src",
+           "Article\\":"src/Graines",
+           "Form\\": "src/Form",
+           "User\\":"src/User",
+           "BDD\\":"models/BDD",
+           "UserAppBDD\\":"models/UserAppBDD"
+        }
+   },
+    "require": {}
+}
